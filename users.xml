@@ -1,0 +1,19 @@
+<object-stream>
+  <list>
+    <models.User>
+      <firstName>Bart</firstName>
+      <email>bart@simpson.com</email>
+      <password>secret</password>
+    </models.User>
+    <models.User>
+      <firstName>Homer</firstName>
+      <email>bart@simpson.com</email>
+      <password>secret</password>
+    </models.User>
+    <models.User>
+      <firstName>Lisa</firstName>
+      <email>bart@simpson.com</email>
+      <password>secret</password>
+    </models.User>
+  </list>
+</object-stream>
