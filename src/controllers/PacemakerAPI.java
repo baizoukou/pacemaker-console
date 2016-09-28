@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import com.google.common.base.Objects;
 import models.User;
 
 public class PacemakerAPI
@@ -28,6 +28,8 @@ public class PacemakerAPI
     users.put(email, user);
     return user;
   }
+  
+  
 
   public User getUser(String email) 
   {
