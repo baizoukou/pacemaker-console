@@ -1,5 +1,7 @@
 package models;
 import static com.google.common.base.MoreObjects.toStringHelper;
+
+
 public class User
 {
 	public String firstName;
