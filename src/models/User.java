@@ -8,6 +8,8 @@ public class User
 	public String lastName;
 	public String email;
 	public String password;
+	static Long counter = 0l;
+	public Long id;
 	
 	public User()
 	{
@@ -19,6 +21,7 @@ public User(String firstName, String lastNamme, String email, String password)
 	this.lastName = lastName;
 	this.email = email;
 	this.password = password;
+	this.id       = counter++;
 	
 }
 
