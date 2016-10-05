@@ -1,6 +1,6 @@
 package models;
 
-public class Fixtures
+public class FixtureTest
 {
   public static User[] users =
   {

@@ -20,6 +20,18 @@ public class UserTest
     assertEquals ("homer@simpson.com",   homer.email);   
     assertEquals ("secret",              homer.password);   
   }
+  
+  @Test
+  public void testEquals()
+  {
+    User homer2 = new User ("homer", "simpson", "homer@simpson.com",  "secret"); 
+    User bart   = new User ("bart", "simpson", "bartr@simpson.com",  "secret"); 
+
+    assertEquals(homer, homer);
+    assertEquals(homer, homer2);
+    assertNotEquals(homer, bart);
+  }  
+  
 
   @Test
   public void testIds()
